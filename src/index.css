@@ -3,16 +3,23 @@
   margin: 0;
 }
 
+#root {
+padding: 0;
+}
+
+
 body,
 body > div {
   height: 100vh;
   width: 100vw;
+  background-color: #F1FFE7;
 }
 
 #container {
   height: 100%;
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
 }
 
 #container > div {
@@ -20,6 +27,13 @@ body > div {
 }
 
 #navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+}
+
+#footer {
+  display: flex; 
+  align-items: flex-end;
   padding: 2em;
   justify-content: space-evenly;
 }
@@ -46,6 +60,18 @@ body > div {
 }
 
 .home {
-  background-color: aliceblue;
-  color: black
+  background-color: #F1FFE7;
+  color: black;
 }
+
+.green {
+  background-color: green;
+  color: whitesmoke;
+}
+
+.link {
+  color: blueviolet;
+  text-decoration: none;
+  font-size: 22px;
+}
+
